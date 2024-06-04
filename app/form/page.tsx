@@ -1,11 +1,11 @@
-import { Form } from "@/components/Form";
+import { ConformForm } from "@/components/ConformForm";
 
 export default function Home() {
   return (
     <main className="h-screen w-full bg-gray-100  flex justify-center items-center">
-      <Form />
+      <ConformForm />
       <p className="absolute bottom-0 right-0 m-4 text-gray-400 font-bold text-sm uppercase">
-        Normal
+        Conform
       </p>
     </main>
   );
